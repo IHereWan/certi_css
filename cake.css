@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing : border-box;
+    font-family: arial;
+}
+* a{
+    text-decoration: none;
+}
+* li{
+    list-style: none;
+}
+.container{
+    position: relative;
+    min-height: 100vh;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.bg::after{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:url('https://images.unsplash.com/photo-1463797221720-6b07e6426c24?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29mZmVlJTIwc2hvcCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80');
+    z-index: -1;
+    background-size:cover;
+    background-position: center;
+    filter:brightness(50%);
+}
+.menu{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-left : 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-image: url('https://www.shutterstock.com/image-photo/seamless-coffee-beans-frame-on-260nw-2192752677.jpg');
+    filter: opacity(60%);
+}
+.logo a{
+    font-size: 2.5rem;
+    color: #fff;
+    margin-left:3rem;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+.menu ul li{
+    padding: 0 17px ;
+}
+.menu ul li a{
+    font-weight: bold;
+    color : #fff;
+    font-size: 18px;
+}
+.nameshop{
+    font-weight: bold;
+    color :#FDF5E6 ;
+    font-size: 50px;
+    margin-left: 10rem;
+    font-family: cursive;
+}
+.bl{
+    font-weight: bold;
+    color :#8e6b2b;
+    font-size: 50px;
+    margin-left: 10rem;
+    margin-top: 5rem;
+    font-family: cursive;
+    
+}
+.bl2{
+    font-weight: bold;
+    color :#8e6b2b ;
+    font-size:50px;
+    margin-left: 16rem;
+    font-family: cursive;
+}
+.bl3{
+    font-weight: bold;
+    color :#8e6b2b ;
+    font-size:50px;
+    margin-left: 20rem;
+    font-family: cursive;
+}
+.tec{
+    font-weight: bold;
+    color :#fff ;
+    font-size:30px;
+    margin-left: 30rem;
+    font-family: cursive;
+    filter :opacity(50%)
+}
+.boxcard{
+    width: 500px;
+    height: 500px;
+    margin-left: 70rem;
+    filter :opacity(60%)
+}
+
+.bl5{
+    font-weight: bold;
+    color : #993333 ;
+    font-size:50px;
+    margin-left: 75rem;
+    font-family: cursive;
+}
+.bl6{
+    font-weight: bold;
+    color :#993333 ;
+    font-size:50px;
+    margin-left: 70rem;
+    font-family: cursive;
+}
+.tec2{
+    font-weight: bold;
+    color :#fff ;
+    font-size:30px;
+    margin-left: 40rem;
+    font-family: cursive;
+    filter :opacity(50%)
+}
+.boxcard2{
+    width: 500px;
+    height: 500px;
+    margin-left: 15rem;
+    filter :opacity(60%)
+}
+
+.card img {
+    height : 300px;
+    width: 300px;
+    border-radius: 3px;
+    transition-duration: 1000ms;
+}
+.container2{
+    display: flex;
+    text-align: center;
+    margin-top: 5rem;
+    margin-left: 7rem;
+    grid-template-columns: auto auto auto;
+    display: grid;
+    column-gap: 20px ;
+    
+}
+.card{
+    height : 400px;
+    width : 350px;
+    margin : 50px;
+    background-color: antiquewhite;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    border-radius: 25px;
+    transition-duration: 0.4s;
+}
+.intro{
+    height: 97px;
+    width: 352px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    background:rgb(27, 27, 27, .5) ;
+    color: antiquewhite;
+    border-radius: 25px;
+    transition-duration: 1000ms;
+}
+
+.card:hover {
+    background: #b37171;
+}
